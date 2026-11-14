@@ -1,0 +1,30 @@
+.mb-card {
+  padding: 8px 20px 20px;
+}
+
+.mb-tabs {
+  margin-bottom: 8px;
+  border-bottom: 1.5px solid #d9eee6;
+}
+
+.mb-book {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mb-book strong {
+  display: block;
+}
+
+.mb-muted {
+  color: #5e6b66;
+  font-size: 13px;
+}
+
+.mb-empty {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  color: #5e6b66;
+}

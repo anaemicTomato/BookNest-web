@@ -1,0 +1,85 @@
+.login-page {
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 24px;
+  display: flex;
+  gap: 24px;
+}
+
+.login-card {
+  flex: 1;
+  max-width: 480px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 72px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.login-card h1 {
+  margin: 0 0 16px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #2fb596;
+}
+
+.login-subtitle {
+  margin: 0 0 56px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 330px;
+  display: grid;
+  gap: 12px;
+}
+
+/* two classes, so this wins over MUI's own button styles */
+.login-form .login-btn {
+  margin-top: 28px;
+  height: 48px;
+}
+
+.login-register {
+  margin: auto 0 0;
+  padding-top: 48px;
+  font-size: 14px;
+}
+
+.login-register a {
+  color: #2fb596;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.login-art {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.login-art .books {
+  width: min(260px, 60%);
+  height: auto;
+}
+
+.login-art p {
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .login-art {
+    display: none;
+  }
+  .login-card {
+    max-width: none;
+  }
+}

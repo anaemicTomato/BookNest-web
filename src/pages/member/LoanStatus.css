@@ -1,0 +1,58 @@
+.ls-state {
+  display: flex;
+  justify-content: center;
+  padding: 48px;
+}
+
+.ls-layout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.ls-main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 320px;
+}
+
+.ls-card {
+  padding: 20px;
+}
+
+.ls-card h2 {
+  margin: 0 0 12px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.ls-side {
+  width: 380px;
+  max-width: 100%;
+}
+
+.ls-muted {
+  margin: 0;
+  color: #5e6b66;
+  font-size: 13px;
+}
+
+.ls-total {
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.ls-total-due {
+  color: #9a2a22;
+}
+
+.ls-fines {
+  margin-top: 14px;
+}
+
+.ls-note {
+  margin-top: 16px;
+}

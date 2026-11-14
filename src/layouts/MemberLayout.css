@@ -1,0 +1,97 @@
+.member-layout {
+  display: flex;
+  gap: 20px;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.member-sidebar {
+  position: sticky;
+  top: 20px;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  width: 220px;
+  height: calc(100vh - 40px);
+  padding: 24px 16px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.member-logo {
+  padding: 0 10px;
+  color: #1f8a72;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.member-role {
+  margin: 4px 10px 24px;
+  color: #5e6b66;
+  font-size: 12px;
+}
+
+.member-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.member-link {
+  padding: 11px 12px;
+  border-radius: 10px;
+  color: #5e6b66;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.member-link:hover {
+  background: #eef9f5;
+}
+
+/* React Router adds the "active" class to the link for the current page */
+.member-link.active {
+  background: #4bc3a8;
+  color: #fff;
+}
+
+.member-logout {
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid #d9eee6;
+}
+
+.member-logout .MuiButton-root {
+  width: 100%;
+  justify-content: flex-start;
+  padding: 11px 12px;
+  color: #5e6b66;
+}
+
+.member-main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+@media (max-width: 800px) {
+  .member-layout {
+    flex-direction: column;
+  }
+  .member-sidebar {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+  .member-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .member-logout {
+    margin-top: 12px;
+  }
+}

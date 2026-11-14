@@ -1,0 +1,83 @@
+.dash-loading {
+  display: flex;
+  justify-content: center;
+  padding: 48px;
+}
+
+.dash-card {
+  padding: 20px;
+}
+
+.dash-card h2 {
+  margin: 0 0 12px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.dash-muted {
+  color: #5e6b66;
+  font-size: 13px;
+}
+
+.dash-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.dash-stat {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 180px;
+}
+
+.dash-stat strong {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.dash-warn {
+  color: #7a5200;
+}
+
+.dash-danger {
+  color: #9a2a22;
+}
+
+.dash-borrowed {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.dash-item {
+  display: flex;
+  flex: 1;
+  gap: 14px;
+  min-width: 260px;
+  padding: 14px;
+  border: 1.5px solid #d9eee6;
+  border-radius: 12px;
+}
+
+.dash-item-title {
+  font-weight: 700;
+}
+
+.dash-item-due {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.dash-arrivals {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 14px;
+}
+
+.dash-arrival-title {
+  margin-top: 8px;
+  font-weight: 600;
+}

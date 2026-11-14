@@ -1,0 +1,28 @@
+.book-cover {
+  position: relative;
+  flex: none;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.book-cover::before {
+  content: "";
+  position: absolute;
+  left: 14%;
+  right: 14%;
+  top: 16%;
+  height: 16%;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.book-cover::after {
+  content: "";
+  position: absolute;
+  left: 14%;
+  bottom: 14%;
+  width: 42%;
+  height: 6%;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.55);
+}

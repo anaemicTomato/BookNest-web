@@ -1,0 +1,37 @@
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 4px 4px 0;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.page-header p {
+  margin: 2px 0 0;
+  color: #5e6b66;
+}
+
+.page-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 16px 6px 6px;
+  border-radius: 999px;
+  background: #fff;
+  font-weight: 600;
+}
+
+.page-user .MuiAvatar-root {
+  width: 32px;
+  height: 32px;
+  background: #4bc3a8;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
