@@ -1,0 +1,14 @@
+/* src/pages/staff/Dashboard.css */
+.staff-dash-loading { display: flex; justify-content: center; padding: 48px; }
+.staff-dash-card { padding: 20px; }
+.staff-dash-card h2 { margin: 0 0 12px; font-size: 16px; font-weight: 700; }
+.staff-dash-muted { color: #5e6b66; font-size: 13px; }
+.staff-dash-stats { display: flex; flex-wrap: wrap; gap: 16px; }
+.staff-dash-stat { display: flex; flex: 1; flex-direction: column; gap: 4px; min-width: 180px; }
+.staff-dash-stat strong { font-size: 30px; font-weight: 800; }
+.staff-dash-warn { color: #7a5200; }
+.staff-dash-danger { color: #9a2a22; }
+.staff-dash-row { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start; }
+.staff-dash-activity { flex: 2; min-width: 320px; }
+.staff-dash-actions { display: flex; flex: 1; flex-direction: column; gap: 10px; min-width: 220px; }
+.staff-dash-card th { color: #5e6b66; font-size: 13px; font-weight: 600; }

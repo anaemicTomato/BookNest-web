@@ -1,0 +1,9 @@
+.staff-members-card { padding: 20px; }
+.staff-members-toolbar { display: flex; gap: 12px; margin-bottom: 12px; }
+.staff-members-who { display: flex; align-items: center; gap: 12px; }
+.staff-members-who strong { display: block; }
+.staff-members-who .MuiAvatar-root { width: 36px; height: 36px; background: #4bc3a8; color: #fff; font-size: 13px; font-weight: 700; }
+.staff-members-muted { color: #5e6b66; font-size: 13px; }
+.staff-members-actions { display: flex; justify-content: flex-end; gap: 8px; }
+.staff-members-spinner { display: block; margin: 32px auto; }
+.staff-members-card th { color: #5e6b66; font-size: 13px; font-weight: 600; }

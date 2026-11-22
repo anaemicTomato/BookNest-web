@@ -12,6 +12,7 @@ export default function ConfirmDialog({
   title,
   message,
   confirmLabel = "Confirm",
+  danger = false,   // true = red confirm button (used for deletes)
   busy = false,
   onConfirm,
   onCancel,
@@ -26,7 +27,7 @@ export default function ConfirmDialog({
         <Button color="inherit" onClick={onCancel} disabled={busy}>
           Cancel
         </Button>
-        <Button variant="contained" onClick={onConfirm} disabled={busy}>
+        <Button variant="contained" color={danger ? "error" : "primary"} onClick={onConfirm} disabled={busy}>
           {busy ? "Please wait…" : confirmLabel}
         </Button>
       </DialogActions>

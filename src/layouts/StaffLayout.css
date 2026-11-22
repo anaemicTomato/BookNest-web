@@ -1,0 +1,97 @@
+.staff-layout {
+  display: flex;
+  gap: 20px;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.staff-sidebar {
+  position: sticky;
+  top: 20px;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  width: 220px;
+  height: calc(100vh - 40px);
+  padding: 24px 16px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.staff-logo {
+  padding: 0 10px;
+  color: #1f8a72;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.staff-role {
+  margin: 4px 10px 24px;
+  color: #5e6b66;
+  font-size: 12px;
+}
+
+.staff-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.staff-link {
+  padding: 11px 12px;
+  border-radius: 10px;
+  color: #5e6b66;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.staff-link:hover {
+  background: #eef9f5;
+}
+
+/* React Router adds the "active" class to the link for the current page */
+.staff-link.active {
+  background: #4bc3a8;
+  color: #fff;
+}
+
+.staff-logout {
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid #d9eee6;
+}
+
+.staff-logout .MuiButton-root {
+  width: 100%;
+  justify-content: flex-start;
+  padding: 11px 12px;
+  color: #5e6b66;
+}
+
+.staff-main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+@media (max-width: 800px) {
+  .staff-layout {
+    flex-direction: column;
+  }
+  .staff-sidebar {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+  .staff-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .staff-logout {
+    margin-top: 12px;
+  }
+}

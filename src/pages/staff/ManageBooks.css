@@ -1,0 +1,13 @@
+.staff-books-grid { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start; }
+.staff-books-card { padding: 20px; }
+.staff-books-list { flex: 2; min-width: 420px; }
+.staff-books-form { display: flex; flex: 1; flex-direction: column; gap: 12px; min-width: 280px; }
+.staff-books-form h2 { margin: 0; font-size: 16px; font-weight: 700; }
+.staff-books-form label { display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 700; }
+.staff-books-form label .MuiTextField-root { font-weight: 400; }
+.staff-books-buttons { display: flex; gap: 10px; margin-top: 4px; }
+.staff-books-toolbar { display: flex; gap: 12px; margin-bottom: 12px; }
+.staff-books-title { display: block; }
+.staff-books-muted { color: #5e6b66; font-size: 13px; }
+.staff-books-spinner { display: block; margin: 32px auto; }
+.staff-books-list th { color: #5e6b66; font-size: 13px; font-weight: 600; }

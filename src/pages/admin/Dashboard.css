@@ -1,0 +1,129 @@
+.admin-dash-loading {
+  display: flex;
+  justify-content: center;
+  padding: 48px;
+}
+
+.admin-dash-card {
+  padding: 20px;
+}
+
+.admin-dash-card h2 {
+  margin: 0 0 16px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.admin-dash-muted {
+  color: #5e6b66;
+  font-size: 13px;
+}
+
+/* the four number cards */
+.admin-dash-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.admin-dash-stat {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 180px;
+}
+
+.admin-dash-stat strong {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+/* the two charts side by side */
+.admin-dash-charts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.admin-dash-months {
+  flex: 2;
+  min-width: 320px;
+}
+
+.admin-dash-categories {
+  flex: 1;
+  min-width: 280px;
+}
+
+/* loans per month: vertical bars */
+.admin-dash-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  height: 260px;
+}
+
+.admin-dash-col {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  height: 100%;
+}
+
+.admin-dash-value {
+  font-weight: 800;
+}
+
+.admin-dash-track {
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  width: 100%;
+  max-width: 64px;
+  border-bottom: 2px solid #d9eee6;
+}
+
+.admin-dash-bar {
+  width: 100%;
+  min-height: 4px;
+  border-radius: 10px 10px 0 0;
+  background: #4bc3a8;
+}
+
+.admin-dash-bar-current {
+  background: #b4e6da;
+}
+
+/* books by category: horizontal bars */
+.admin-dash-row {
+  display: grid;
+  grid-template-columns: 90px 1fr 32px;
+  align-items: center;
+  gap: 12px;
+  padding: 7px 0;
+}
+
+.admin-dash-line {
+  height: 10px;
+  border-radius: 999px;
+  background: #eef6f3;
+  overflow: hidden;
+}
+
+.admin-dash-fill {
+  height: 100%;
+  border-radius: 999px;
+}
+
+.admin-dash-row strong {
+  text-align: right;
+}
+
+/* recent system activity: full width under the two charts */
+.admin-dash-activity {
+  margin-top: 16px;
+}

@@ -1,0 +1,78 @@
+.admin-books-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.admin-books-card {
+  padding: 20px;
+}
+
+.admin-books-list {
+  flex: 1;
+  min-width: 420px;
+}
+
+.admin-books-form {
+  width: 340px;
+  flex: none;
+}
+
+.admin-books-form h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.admin-books-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.admin-books-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.admin-books-top {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.admin-books-top .MuiButton-root {
+  flex: none;
+  white-space: nowrap;
+}
+
+.admin-books-list strong {
+  display: block;
+}
+
+.admin-books-muted {
+  color: #5e6b66;
+  font-size: 13px;
+}
+
+.admin-books-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.admin-books-empty {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  color: #5e6b66;
+}
+
+@media (max-width: 800px) {
+  .admin-books-list,
+  .admin-books-form {
+    width: 100%;
+    min-width: 0;
+  }
+}

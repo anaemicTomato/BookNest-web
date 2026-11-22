@@ -1,0 +1,117 @@
+.admin-staff-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.admin-staff-card {
+  padding: 20px;
+}
+
+.admin-staff-list {
+  flex: 1;
+  min-width: 420px;
+}
+
+.admin-staff-form {
+  width: 340px;
+  flex: none;
+}
+
+.admin-staff-form h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.admin-staff-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.admin-staff-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.admin-staff-top {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.admin-staff-top .MuiButton-root {
+  flex: none;
+  white-space: nowrap;
+}
+
+.admin-staff-person {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.admin-staff-person strong {
+  display: block;
+}
+
+.admin-staff-avatar.MuiAvatar-root {
+  width: 36px;
+  height: 36px;
+  background: #4bc3a8;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.admin-staff-muted {
+  color: #5e6b66;
+  font-size: 13px;
+}
+
+.admin-staff-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.admin-staff-filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.admin-staff-password {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #e1ece8;
+}
+
+.admin-staff-password h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.admin-staff-password p {
+  margin: 0;
+}
+
+.admin-staff-empty {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  color: #5e6b66;
+}
+
+@media (max-width: 800px) {
+  .admin-staff-list,
+  .admin-staff-form {
+    width: 100%;
+    min-width: 0;
+  }
+}

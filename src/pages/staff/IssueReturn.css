@@ -1,0 +1,99 @@
+.staff-issue-tabs {
+  align-self: flex-start;
+  padding: 0 6px;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.staff-issue-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.staff-issue-left {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 320px;
+}
+
+.staff-issue-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+}
+
+.staff-issue-card h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.staff-issue-summary {
+  flex: 1;
+  min-width: 280px;
+}
+
+.staff-issue-row,
+.staff-issue-selected {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1.5px solid #d9eee6;
+  border-radius: 12px;
+  background: #fff;
+  font: inherit;
+  text-align: left;
+}
+
+.staff-issue-row {
+  width: 100%;
+  cursor: pointer;
+}
+
+.staff-issue-row:hover:not(:disabled) {
+  background: #eef9f5;
+}
+
+.staff-issue-row:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.staff-issue-grow {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.staff-issue-muted {
+  color: #5e6b66;
+  font-size: 13px;
+}
+
+.staff-issue-line {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid #d9eee6;
+}
+
+.staff-issue-danger {
+  color: #9a2a22;
+}
+
+.staff-issue-card .MuiAvatar-root {
+  width: 36px;
+  height: 36px;
+  background: #4bc3a8;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}
